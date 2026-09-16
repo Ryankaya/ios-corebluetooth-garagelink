@@ -1,0 +1,95 @@
+name: GarageLink
+options:
+  bundleIdPrefix: com.ryankaya
+  deploymentTarget:
+    iOS: "16.2"
+    macOS: "13.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+
+packages:
+  GarageKit:
+    path: Packages/GarageKit
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: N3X2H33TR7
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  GarageLink:
+    type: application
+    platform: iOS
+    sources:
+      - path: GarageLink
+    dependencies:
+      - package: GarageKit
+        product: GarageProtocol
+    info:
+      path: GarageLink/Info.plist
+      properties:
+        CFBundleDisplayName: GarageLink
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSBluetoothAlwaysUsageDescription: GarageLink uses Bluetooth to find, pair with and control your garage door controller.
+        NFCReaderUsageDescription: GarageLink reads the pairing tag on your garage door controller.
+        NSCameraUsageDescription: GarageLink scans the pairing QR code on your garage door controller.
+        UIBackgroundModes: [bluetooth-central]
+        CFBundleURLTypes:
+          - CFBundleURLName: com.ryankaya.garagelink.pair
+            CFBundleURLSchemes: [garagelink]
+    entitlements:
+      path: GarageLink/GarageLink.entitlements
+      properties:
+        com.apple.developer.nfc.readersession.formats: [TAG]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ryankaya.garagelink
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+  GarageSim:
+    type: application
+    platform: macOS
+    sources:
+      - path: DeviceSimulator/GarageSim
+    dependencies:
+      - package: GarageKit
+        product: GarageProtocol
+    info:
+      path: DeviceSimulator/GarageSim/Info.plist
+      properties:
+        CFBundleDisplayName: GarageSim
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.developer-tools
+        NSBluetoothAlwaysUsageDescription: GarageSim advertises a simulated garage door controller over Bluetooth LE so the GarageLink iPhone app can pair with it.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ryankaya.garagelink.sim
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        # Runs locally for demos; no sandbox so no extra Bluetooth entitlement is needed.
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: NO
+
+schemes:
+  GarageLink:
+    build:
+      targets:
+        GarageLink: all
+    run:
+      config: Debug
+  GarageSim:
+    build:
+      targets:
+        GarageSim: all
+    run:
+      config: Debug

@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D62C036CE2ED240FF21134 /* PairingQRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785E4CF2DCAE5584335E47EC /* PairingQRScanner.swift */; };
+		0D0DD829F446C4E6D4126A5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A7143313225337025AF86 /* HomeView.swift */; };
+		0F32114480628851523F562B /* PairingLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D67B9BA4CF7D6E70F02328 /* PairingLink.swift */; };
+		388123E3BEE4FB2519A59ACD /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF689D87572F3CFAAC1E3CD /* AppEnvironment.swift */; };
+		3DEC75534154C0DB3F36D38A /* DeviceRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1C3B1543AA2D3A20412B6 /* DeviceRegistry.swift */; };
+		4CA0C196D03A2C94C567B344 /* VirtualGarage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE1B192E152F39EDC18BCD /* VirtualGarage.swift */; };
+		4ED0D6A267EFE0EEFC1B177F /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263FA01754860FE44254371 /* PairingView.swift */; };
+		4FC5AFE3B6FBF9D378380EEF /* BLECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558DF4533223A1F12E6DE49 /* BLECentral.swift */; };
+		6422BEC14AE5477E88B60234 /* TrafficLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89E6358687B6415301ED7EA /* TrafficLog.swift */; };
+		6EA80363D79CB8F00FAEE4A4 /* GarageProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = E16A47F2EF90F5A742C41183 /* GarageProtocol */; };
+		859406BD3AFD7526203E5842 /* GarageSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F709299065A7623A58D85 /* GarageSimApp.swift */; };
+		8C5C332DFB4BCE37B1C60BA6 /* DeviceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D96216C31646892B8728E5 /* DeviceControlView.swift */; };
+		9194F676C4280063E5A0884B /* VirtualDevicePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5308A146AE4E4011DDD38 /* VirtualDevicePanelView.swift */; };
+		95370B7BD5E561BBD9A24FDB /* GarageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28B2027529D5335E5B9C77 /* GarageClient.swift */; };
+		9777532B48C86D08D78A857F /* GarageLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A11161E6AAB34938FD1EE /* GarageLinkApp.swift */; };
+		A2A5A728AA84A85150FADB33 /* GarageProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 76005F6AE034DA8967D7BBDC /* GarageProtocol */; };
+		AC904341A484F7428FBABD5F /* DeviceControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5BA837ADC83683E4F6349 /* DeviceControlViewModel.swift */; };
+		B47C95FD1203327BD87A8CFB /* BluetoothDeviceHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F940CC02A175BFFB199D8BD3 /* BluetoothDeviceHost.swift */; };
+		BBBE339066782EB2C4280522 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A250AB65167E5B2FE826B /* Transport.swift */; };
+		C934D5D0BD11842F7EB6A762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A0D1C1C4FAAB77187E49F1 /* Assets.xcassets */; };
+		CD95F227E63F9F40C4560C0F /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21A99829EAACDC4973DB5B0 /* AddDeviceView.swift */; };
+		DA6CE3A0103C7AF59427CBC2 /* TrafficLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547CE4C4068365A2C0FE521 /* TrafficLogView.swift */; };
+		FA29D17831AFD8272C3699A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3781D5B1D674D1ED890CEB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03F1C3B1543AA2D3A20412B6 /* DeviceRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRegistry.swift; sourceTree = "<group>"; };
+		0558DF4533223A1F12E6DE49 /* BLECentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLECentral.swift; sourceTree = "<group>"; };
+		11D67B9BA4CF7D6E70F02328 /* PairingLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingLink.swift; sourceTree = "<group>"; };
+		1263FA01754860FE44254371 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		45A0D1C1C4FAAB77187E49F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		762A7143313225337025AF86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		77D96216C31646892B8728E5 /* DeviceControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlView.swift; sourceTree = "<group>"; };
+		785E4CF2DCAE5584335E47EC /* PairingQRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingQRScanner.swift; sourceTree = "<group>"; };
+		7AD5308A146AE4E4011DDD38 /* VirtualDevicePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDevicePanelView.swift; sourceTree = "<group>"; };
+		7F28B2027529D5335E5B9C77 /* GarageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageClient.swift; sourceTree = "<group>"; };
+		7F3781D5B1D674D1ED890CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8547CE4C4068365A2C0FE521 /* TrafficLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLogView.swift; sourceTree = "<group>"; };
+		87828EADAEA8DEDC29258DA2 /* GarageSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B5BA837ADC83683E4F6349 /* DeviceControlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceControlViewModel.swift; sourceTree = "<group>"; };
+		934F709299065A7623A58D85 /* GarageSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageSimApp.swift; sourceTree = "<group>"; };
+		A201DBF916E547850767962C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ABF689D87572F3CFAAC1E3CD /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		B21A99829EAACDC4973DB5B0 /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		B89E6358687B6415301ED7EA /* TrafficLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLog.swift; sourceTree = "<group>"; };
+		BD6A11161E6AAB34938FD1EE /* GarageLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageLinkApp.swift; sourceTree = "<group>"; };
+		BEFEF98CA12DB7839976BCBD /* GarageLink.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GarageLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67522E375DFF3814F09AE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDC5B00E848D96A410EB649D /* GarageLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GarageLink.entitlements; sourceTree = "<group>"; };
+		E61A250AB65167E5B2FE826B /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		F52BFA88964D9CF7F52D424C /* GarageKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GarageKit; path = Packages/GarageKit; sourceTree = SOURCE_ROOT; };
+		F940CC02A175BFFB199D8BD3 /* BluetoothDeviceHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDeviceHost.swift; sourceTree = "<group>"; };
+		F9BE1B192E152F39EDC18BCD /* VirtualGarage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualGarage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3981C84C5C78DCFC7FBA26B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA80363D79CB8F00FAEE4A4 /* GarageProtocol in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAF8A654E7B4F57B18C1F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A5A728AA84A85150FADB33 /* GarageProtocol in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0207B1BBE7D59C2DDC58B345 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ABF689D87572F3CFAAC1E3CD /* AppEnvironment.swift */,
+				BD6A11161E6AAB34938FD1EE /* GarageLinkApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0CC050ABD7202D4C7B6983C4 /* AddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				B21A99829EAACDC4973DB5B0 /* AddDeviceView.swift */,
+				785E4CF2DCAE5584335E47EC /* PairingQRScanner.swift */,
+				1263FA01754860FE44254371 /* PairingView.swift */,
+			);
+			path = AddDevice;
+			sourceTree = "<group>";
+		};
+		112FBE65280B8485F2E783F8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F52BFA88964D9CF7F52D424C /* GarageKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1F2BF6D435CF65E1FBE70539 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				77D96216C31646892B8728E5 /* DeviceControlView.swift */,
+				92B5BA837ADC83683E4F6349 /* DeviceControlViewModel.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		4C5610BD28F3805EA57AEA17 /* Inspector */ = {
+			isa = PBXGroup;
+			children = (
+				8547CE4C4068365A2C0FE521 /* TrafficLogView.swift */,
+			);
+			path = Inspector;
+			sourceTree = "<group>";
+		};
+		6AF211E33188A8A9F31FF398 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				0CC050ABD7202D4C7B6983C4 /* AddDevice */,
+				1F2BF6D435CF65E1FBE70539 /* Control */,
+				7D41657B35574929121074B1 /* Home */,
+				4C5610BD28F3805EA57AEA17 /* Inspector */,
+				D14892D13430E6B5672C19F9 /* VirtualDevice */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7D41657B35574929121074B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				762A7143313225337025AF86 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8F1A5A6AB1E489B3B6035FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEF98CA12DB7839976BCBD /* GarageLink.app */,
+				87828EADAEA8DEDC29258DA2 /* GarageSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A801183D56793AD88091426E /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				0558DF4533223A1F12E6DE49 /* BLECentral.swift */,
+				E61A250AB65167E5B2FE826B /* Transport.swift */,
+				F9BE1B192E152F39EDC18BCD /* VirtualGarage.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		AAB625930639EDF3091BC647 /* GarageSim */ = {
+			isa = PBXGroup;
+			children = (
+				45A0D1C1C4FAAB77187E49F1 /* Assets.xcassets */,
+				F940CC02A175BFFB199D8BD3 /* BluetoothDeviceHost.swift */,
+				934F709299065A7623A58D85 /* GarageSimApp.swift */,
+				C67522E375DFF3814F09AE26 /* Info.plist */,
+			);
+			path = GarageSim;
+			sourceTree = "<group>";
+		};
+		AD6261AB3CD63B833208B46A /* DeviceSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				AAB625930639EDF3091BC647 /* GarageSim */,
+			);
+			path = DeviceSimulator;
+			sourceTree = "<group>";
+		};
+		AF11B3952125BD5AA1191E6E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				03F1C3B1543AA2D3A20412B6 /* DeviceRegistry.swift */,
+				7F28B2027529D5335E5B9C77 /* GarageClient.swift */,
+				11D67B9BA4CF7D6E70F02328 /* PairingLink.swift */,
+				B89E6358687B6415301ED7EA /* TrafficLog.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BEC70FF26EA8F8A8150D02A8 /* GarageLink */ = {
+			isa = PBXGroup;
+			children = (
+				7F3781D5B1D674D1ED890CEB /* Assets.xcassets */,
+				DDC5B00E848D96A410EB649D /* GarageLink.entitlements */,
+				A201DBF916E547850767962C /* Info.plist */,
+				0207B1BBE7D59C2DDC58B345 /* App */,
+				AF11B3952125BD5AA1191E6E /* Core */,
+				6AF211E33188A8A9F31FF398 /* Features */,
+				A801183D56793AD88091426E /* Transport */,
+			);
+			path = GarageLink;
+			sourceTree = "<group>";
+		};
+		C08B0D654C2173BAB491E932 = {
+			isa = PBXGroup;
+			children = (
+				AD6261AB3CD63B833208B46A /* DeviceSimulator */,
+				BEC70FF26EA8F8A8150D02A8 /* GarageLink */,
+				112FBE65280B8485F2E783F8 /* Packages */,
+				8F1A5A6AB1E489B3B6035FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14892D13430E6B5672C19F9 /* VirtualDevice */ = {
+			isa = PBXGroup;
+			children = (
+				7AD5308A146AE4E4011DDD38 /* VirtualDevicePanelView.swift */,
+			);
+			path = VirtualDevice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77695E612A9A33F7CEBB1E4E /* GarageSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5C40FD88050FCD8F11EE22 /* Build configuration list for PBXNativeTarget "GarageSim" */;
+			buildPhases = (
+				4FB1D691376E6CBEAACAAA63 /* Sources */,
+				FF56A4B975CA23C29A59E8C6 /* Resources */,
+				3981C84C5C78DCFC7FBA26B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarageSim;
+			packageProductDependencies = (
+				E16A47F2EF90F5A742C41183 /* GarageProtocol */,
+			);
+			productName = GarageSim;
+			productReference = 87828EADAEA8DEDC29258DA2 /* GarageSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D91959BD3EF7508F59AD6B90 /* GarageLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586B3AF72F147B32BCA2608A /* Build configuration list for PBXNativeTarget "GarageLink" */;
+			buildPhases = (
+				F3F1A32F94FF72F19B4432DE /* Sources */,
+				78C371D9EC93C48213948F12 /* Resources */,
+				AEAF8A654E7B4F57B18C1F4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GarageLink;
+			packageProductDependencies = (
+				76005F6AE034DA8967D7BBDC /* GarageProtocol */,
+			);
+			productName = GarageLink;
+			productReference = BEFEF98CA12DB7839976BCBD /* GarageLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70DCA15F9E5656ECDE8455E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					77695E612A9A33F7CEBB1E4E = {
+						DevelopmentTeam = N3X2H33TR7;
+						ProvisioningStyle = Automatic;
+					};
+					D91959BD3EF7508F59AD6B90 = {
+						DevelopmentTeam = N3X2H33TR7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBFD81EC301C87AAA5BD34D3 /* Build configuration list for PBXProject "GarageLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C08B0D654C2173BAB491E932;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5150B5ECD1C3DCA2E6DA0909 /* XCLocalSwiftPackageReference "Packages/GarageKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91959BD3EF7508F59AD6B90 /* GarageLink */,
+				77695E612A9A33F7CEBB1E4E /* GarageSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C371D9EC93C48213948F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA29D17831AFD8272C3699A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF56A4B975CA23C29A59E8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C934D5D0BD11842F7EB6A762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FB1D691376E6CBEAACAAA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47C95FD1203327BD87A8CFB /* BluetoothDeviceHost.swift in Sources */,
+				859406BD3AFD7526203E5842 /* GarageSimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F1A32F94FF72F19B4432DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD95F227E63F9F40C4560C0F /* AddDeviceView.swift in Sources */,
+				388123E3BEE4FB2519A59ACD /* AppEnvironment.swift in Sources */,
+				4FC5AFE3B6FBF9D378380EEF /* BLECentral.swift in Sources */,
+				8C5C332DFB4BCE37B1C60BA6 /* DeviceControlView.swift in Sources */,
+				AC904341A484F7428FBABD5F /* DeviceControlViewModel.swift in Sources */,
+				3DEC75534154C0DB3F36D38A /* DeviceRegistry.swift in Sources */,
+				95370B7BD5E561BBD9A24FDB /* GarageClient.swift in Sources */,
+				9777532B48C86D08D78A857F /* GarageLinkApp.swift in Sources */,
+				0D0DD829F446C4E6D4126A5E /* HomeView.swift in Sources */,
+				0F32114480628851523F562B /* PairingLink.swift in Sources */,
+				02D62C036CE2ED240FF21134 /* PairingQRScanner.swift in Sources */,
+				4ED0D6A267EFE0EEFC1B177F /* PairingView.swift in Sources */,
+				6422BEC14AE5477E88B60234 /* TrafficLog.swift in Sources */,
+				DA6CE3A0103C7AF59427CBC2 /* TrafficLogView.swift in Sources */,
+				BBBE339066782EB2C4280522 /* Transport.swift in Sources */,
+				9194F676C4280063E5A0884B /* VirtualDevicePanelView.swift in Sources */,
+				4CA0C196D03A2C94C567B344 /* VirtualGarage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6F486E573FDE4F2CFE21D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GarageLink/GarageLink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GarageLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.garagelink;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0D8EB8EF9DE6F95E84C9252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = DeviceSimulator/GarageSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.garagelink.sim;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DED6BE8AEE081E8863B167E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = DeviceSimulator/GarageSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.garagelink.sim;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E20A5216CE42E9D33455E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GarageLink/GarageLink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GarageLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.garagelink;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED15362F603B88543641BB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N3X2H33TR7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FEB1A3E98A57F6AEDD7B98AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N3X2H33TR7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5C40FD88050FCD8F11EE22 /* Build configuration list for PBXNativeTarget "GarageSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D8EB8EF9DE6F95E84C9252 /* Debug */,
+				DED6BE8AEE081E8863B167E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		586B3AF72F147B32BCA2608A /* Build configuration list for PBXNativeTarget "GarageLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F486E573FDE4F2CFE21D60 /* Debug */,
+				E20A5216CE42E9D33455E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBFD81EC301C87AAA5BD34D3 /* Build configuration list for PBXProject "GarageLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB1A3E98A57F6AEDD7B98AA /* Debug */,
+				ED15362F603B88543641BB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5150B5ECD1C3DCA2E6DA0909 /* XCLocalSwiftPackageReference "Packages/GarageKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GarageKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76005F6AE034DA8967D7BBDC /* GarageProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GarageProtocol;
+		};
+		E16A47F2EF90F5A742C41183 /* GarageProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GarageProtocol;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E70DCA15F9E5656ECDE8455E /* Project object */;
+}
