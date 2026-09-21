@@ -5,3 +5,10 @@ DerivedData/
 .swiftpm/
 xcuserdata/
 *.xcuserstate
+Firmware/garagelink-esp32/build/
+Firmware/garagelink-esp32/sdkconfig
+Firmware/garagelink-esp32/sdkconfig.old
+Firmware/garagelink-esp32/managed_components/
+Firmware/garagelink-esp32/dependencies.lock
+Firmware/host-test/host_test
+Firmware/host-test/.mbedtls-build/
